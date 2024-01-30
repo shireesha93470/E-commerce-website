@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: "poppins",sans-serif;
+        }
+        body{
+            min-height:100vh;
+            font-family: "Poppins", sans-serif;
+        }
+        :root {
+  --primary-color: #12ac8e;
+  --primary-color-dark: #0d846c;
+  --primary-color-light: #e9f7f7;
+  --secondary-color: #fb923c;
+  --text-dark: #333333;
+  --text-light: #767268;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+        
+        .header{
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            padding:1.3rem 10%;
+            background: rgba(0,0,0,.1);
+            backdrop-filter: blur(50px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index:100;
+            background-color: #28bf96;
+        }
+        .logo{
+            font-size:2rem;
+            color:white;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        .navbar a{
+            font-size: 1.15rem;
+            color:#fff;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 2.5rem;
+        }
+        .about_main{
+            height:800px;
+            margin:auto;
+            width:1200px;
+            margin-top:150px;
+            border-radius: 50px;
+            background-color: #28bf96;
+            padding-top: 50px;
+        }
+        .about_submain img{
+            height:700px;
+            width:1100px;
+            border-radius: 40px;
+            margin-left:50px;
+        }
+        .about_heading{
+            text-align: center;
+            font-size: 44px;
+            margin-top: 50px;
+            font-weight: 700;    
+        }
+        .about_para{
+            text-align: center;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        .about_details
+        {
+            width:100%;
+            height:500px;
+            margin-top: 50px;
+            display: flex;
+        }
+        .about_left{
+            width:40%;
+            height:100%;
+            margin-left: 150px;
+            border: 50px solid #28bf96;
+        }
+        .about_right{
+            width:40%;
+            height:100%;
+            border: 50px solid #28bf96;
+            margin-left: 40px;
+            
+           
+        }
+        .about_left img{
+            height: 100%;
+            width:100%;
+            
+        }
+         .about_smallpara{
+            height: 90%;
+            width:90%;
+            margin-left: 20px;
+            margin-top: 20px; 
+            text-align:justify;     
+        }
+        .contact-left{
+            height: 755px;
+            width:1510px;
+            margin-left: 150px;
+            border: 50px solid #28bf96;
+            margin-top: 100px;
+        }
+        .footer {
+  background-color: var(--primary-color-light);
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 400px repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.footer__col h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.footer__col h3 span {
+  color: var(--secondary-color);
+}
+
+.footer__col h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.footer__col p {
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer__col p:hover {
+  color: var(--primary-color);
+}
+
+.footer__col i {
+  color: var(--primary-color);
+}
+
+.footer__bar {
+  background-color: var(--primary-color);
+}
+
+.footer__bar__content {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer__bar__content p {
+  font-size: 0.8rem;
+  color: var(--white);
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  color: var(--white);
+  cursor: pointer;
+}
+       
+        
+
+
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Logo</a>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">Diseases</a>
+            <a href="">Doctors</a>
+            <a href="">Appointments</a>
+            <a href="">About Us</a>
+        </nav>
+    </header>
+    
+        <div class="about_main">
+            <div class="about_submain">
+                <img src="https://www.apollohospitals.com/bangalore/wp-content/uploads/new-home-images/speciality_ah_m.webp">
+            </div>
+        </div>
+        <h1 class="about_heading">ABOUT US</h1>
+        <p class="about_para">aim to improve the world by facilitating easy access to specialist doctors and hospitals through efficient platforms, <br>
+            ensuring timely and appropriate medical care for everyone, regardless of their location or circumstances. By bridging<br>
+             the gap between healthcare seekers and providers, we can enhance the overall well-being and health outcomes of individuals worldwide.</p>
+        <div class="about_details">
+            <div class="about_left">
+                <div class="about_smallpara">
+                <p>Online doctor consultations are experiencing remarkable growth, with the market expected to surge by 72% and reach an impressive valuation 
+                    of $836 million by March 2024, according to a recent study. This surge can be attributed to the increasing acceptance of telemedicine, 
+                    rapid technological advancements, and the rising demand for remote healthcare services, particularly in light of the COVID-19 pandemic. 
+                    A wide array of stakeholders, including telehealth companies, healthcare professionals, pharmaceutical firms, and technology providers, 
+                    are poised to benefit from this substantial expansion. However, alongside these opportunities, the market also faces challenges,
+                     including regulatory complexities, the need to ensure robust data security and patient privacy, and addressing disparities in access to
+                      these online healthcare services. This growth projection underscores the growing prominence of telemedicine in the digital healthcare 
+                      landscape, with the data-driven study offering insights into market trends, opportunities, and hurdles.The increasing adoption of online
+                       doctor consultations is reshaping the healthcare industry, providing patients with convenient access to medical expertise. As technology 
+                       continues to evolve, we can anticipate even more innovative approaches to healthcare delivery, enhancing the overall patient experience. 
+                       The growth of telemedicine is not only a response to the pandemic but also a reflection of the broader trend towards digital transformation 
+                       in healthcare.  </p>
+                    </div>
+            </div>
+            <div class="about_right">
+                 <div>
+                    <iframe width="635" height="400" src="https://youtu.be/UYjlbTnF-YE" frameborder="0" allowfullscreen></iframe>
+               </div>
+                
+            </div>
+        </div>
+        <div class="about_details">
+            <div class="about_left">
+                <img src="https://www.clinicone.com.np/wp-content/uploads/2020/08/Untitled-design.png">
+            </div>
+            <div class="about_right">
+                <div class="about_smallpara">
+                    <p>Online video consultations have emerged as a transformative healthcare and 
+                        communication tool, offering unprecedented convenience, accessibility, 
+                        and efficiency. Enabled by advancements in technology, these virtual 
+                        appointments connect patients with healthcare professionals, specialists, 
+                        or other experts, transcending geographical boundaries and overcoming logistical barriers. 
+                        With the capability to discuss medical concerns, receive diagnoses, seek advice, and even
+                         access therapeutic interventions, online video consultations have become a vital resource, 
+                         particularly in times of crisis like the COVID-19 pandemic. They empower individuals to take
+                          charge of their health, save time and resources, reduce the burden on healthcare infrastructure, 
+                          and ensure continuity of care. However, they also raise issues related to privacy, security, and 
+                          equitable access, necessitating careful consideration and regulation as they continue to gain prominence 
+                          in the digital landscape. As the adoption of online video consultations grows, it becomes crucial to 
+                          address concerns surrounding the quality of care, ensure that vulnerable populations can also benefit from 
+                          this technology, and establish clear guidelines for healthcare providers to deliver effective and ethical 
+                          virtual care services. Moreover, maintaining the human touch and empathy in remote healthcare interactions 
+                          should remain a priority to uphold the patient-provider relationship.</p>
+                </div>
+            </div>
+        </div>
+        <div class = "contact-left">
+            <iframe src="https://www.google.com/maps/place/JTD+Foundation/@12.9661203,77.5544513,14.91z/data=!4m6!3m5!1s0x3bae3dd8ade7d69f:0x2cd2c94cf96ba5e9!8m2!3d12.9648486!4d77.5329651!16s%2Fg%2F11dywxvmsc?entry=ttu" width="1410" height="650"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <footer class="footer">
+            <div class="section__container footer__container">
+              <div class="footer__col">
+                <h3>LIFE<span>BIRD</span></h3>
+                <p>
+                  We are honored to be a part of your healthcare journey and committed
+                  to delivering compassionate, personalized, and top-notch care every
+                  step of the way.
+                </p>
+                <p>
+                  Trust us with your health, and let us work together to achieve the
+                  best possible outcomes for you and your loved ones.
+                </p>
+              </div>
+              <div class="footer__col">
+                <h4>About Us</h4>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Work With Us</p>
+                <p>Our Blog</p>
+                <p>Terms & Conditions</p>
+              </div>
+              <div class="footer__col">
+                <h4>Services</h4>
+                <p>Search Terms</p>
+                <p>Advance Search</p>
+                <p>Privacy Policy</p>
+                <p>Suppliers</p>
+                <p>Our Stores</p>
+              </div>
+              <div class="footer__col">
+                <h4>Contact Us</h4>
+                <p>
+                  <i class="ri-map-pin-2-fill"></i> 123, London Bridge Street, London
+                </p>
+                <p><i class="ri-mail-fill"></i> support@care.com</p>
+                <p><i class="ri-phone-fill"></i> (+012) 3456 789</p>
+              </div>
+            </div>
+            <div class="footer__bar">
+              <div class="footer__bar__content">
+                <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+                <div class="footer__socials">
+                  <span><i class="ri-instagram-line"></i></span>
+                  <span><i class="ri-facebook-fill"></i></span>
+                  <span><i class="ri-heart-fill"></i></span>
+                  <span><i class="ri-twitter-fill"></i></span>
+                </div>
+              </div>
+            </div>
+          </footer>
+        
+        
+
+    
+</body>
+</html>

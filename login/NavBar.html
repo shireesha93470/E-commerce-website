@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+        *{
+            margin:0%;
+            padding:0%;
+        }
+        .fnav{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            margin-top: 11px;
+            color: white;
+            padding: 6px;
+            background-color: rgb(42,42,68);
+
+        }
+        .fnav-left{
+            display: flex;
+            margin-top: 10px;
+        }
+        .left img{
+            height:80px;
+            width:200px;
+        }
+
+        .fnav-right{
+            display: flex;
+            margin-top: 16px;
+        }
+        .right p{
+            margin-inline:22px;
+            font-size: 22px;
+
+        }
+        .right button{
+            margin-inline:22px;
+            width:80px;
+            height:27px;
+            border:none;
+            border-radius: 2px;
+            background-color: rgb(248, 84, 111);
+            color:white;
+        }
+        .left input{
+            margin-inline: 11px;
+            width:420px;
+            height:33px;
+            border:none ;
+            outline:none;
+            text-align: center;
+            margin-top: 16px;
+            border-radius: 2px;
+
+        }
+        .right i{
+            margin-inline: 22px;
+            font-size: 22px;
+        }
+        .sec-nav{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            padding:6px;
+            background-color: rgb(26,26,48);
+        }
+        .sec-nav .s-left{
+            display: flex;
+        }
+        .sec-nav .s-right{
+            display: flex;
+        }
+        .s-left p{
+            margin-inline-start: 18px;
+            color: white;
+        }
+        .s-right p{
+            margin-inline-start: 18px;
+            color:white;
+        }
+        .right{
+            display: flex;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="fnav">
+        <div class="left">
+            <!-- <img src="https://m.economictimes.com/thumb/msid-78623207,width-1200,height-900,resizemode-4,imgsize-18418/bookmyshow.jpg" alt=""> -->
+            <input type="text" placeholder="Search For Movies,Events,plays and more">
+        </div>
+        <div class="right">
+            <p>Location</p>
+            <button>Sign In</button>
+            <i class="fa-solod fa-bars"></i>
+        </div>
+    </nav>
+    <nav class="sec-nav">
+        <div class="s-left">
+            <p>Movies</p>
+            <p>Stream</p>
+            <p>Events</p>
+            <p>plays</p>
+            <p>Sports</p>
+            <p>Activities</p>
+            <p>Buzz</p>
+        </div>
+        <div class="s-right">
+            <p>ListYourShow</p>
+            <p>corporates</p>
+            <p>Offer</p>
+            <p>Gift Cards</p>
+        </div>
+    </nav>
+</body>
+</html>
